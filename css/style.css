@@ -3,7 +3,7 @@
     font-family: cursive;
 }
 body{
-    color: azure;
+    color: rgb(240, 255, 255);
     width: 100%;
     height: 100vh;
     display: flex;
@@ -21,25 +21,25 @@ body{
 }
 @keyframes glow{
     0%, 100%{
-        color: #fff;
+        color: #ffd0f8;
         text-shadow: 0 0 90px #ff0066, 0 0 10px #ff00a2, 0 0 100px #ff00e6;
     }
     10%, 90%{
-        color: #58314f;
+        color: #44243d;
         text-shadow: none;
     }
 }
 .greetings > span:nth-child(2){
-    animation-delay: .2s ;
+    animation-delay: .1s ;
 }
 .greetings > span:nth-child(3){
-    animation-delay: .4s ;
+    animation-delay: .1s ;
 }
 .greetings > span:nth-child(4){
-    animation-delay: .4s;
+    animation-delay: .1s;
 }
 .greetings > span:nth-child(5){
-    animation-delay: .2s;
+    animation-delay: .1s;
 }
 
 .description{
@@ -50,7 +50,7 @@ body{
 .button a{
     text-decoration: none;
     font-size: 1rem;
-    color: #111;
+    color: #111111;
 }
 
 @media screen and (max-width:574px){
@@ -70,12 +70,12 @@ body{
 }
 
 .description{
-    color: #d46068;
+    color: #d37897da;
 }
 
 /* Estilo para el botón */
 .button button {
-    background-color: rgb(255, 0, 98); /* Fondo amarillo */
+    background-color: rgb(189, 0, 72); /* Fondo amarillo */
     border: none;  /* Sin bordes */
     padding: 8.5px 23px; /* Ajusta el relleno según tu preferencia */
     font-size: 18px; /* Tamaño de fuente */
